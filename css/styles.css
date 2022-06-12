@@ -1,0 +1,104 @@
+
+:root{
+--primary-color: #757575;
+--secondary-color: #212121;
+--accent-color: #2196F3;
+--primary-font:  "Roboto", sans-serif;
+--secondary-font: "Raleway", sans-serif;
+--normal-font: 400;
+--medium-font: 500;
+--bold-font: 700;
+--bolder-font: 900;
+--primari-front-size: 14px
+}
+
+body{
+    font-size: var(--primari-front-size);
+    font-family: "Roboto", sans-serif;
+    width: 1048px;
+    margin: 0 auto;
+}
+.list{
+    list-style: none;
+
+}
+.address{
+    color: #FFFFFF;
+}
+
+
+/* header */
+.header{
+    padding: 24px 0 0;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.site-logo {
+    font-size: 26px;
+    line-height: 1.19;
+    color: var(--accent-color);
+    font-weight: 700;
+}
+.nav{
+    display: flex;
+}
+.current{
+    color: #212121;
+}
+.menu-list{
+    list-style: none;
+    display: flex;
+}
+.current:first-child{
+    margin-right: 93px;
+}
+
+.menu-link{
+    color: var(--secondary-color);
+    color: var (--secondary-color);
+    font-family: var(--primary-font);
+    font-size: var(--primari-front-size);
+    font-weight: var(--medium-font);
+    margin-right: 50px;
+}
+.section {
+    display: flex;
+    align-items: center;
+    
+}
+
+/* solutions */
+.section-solutions{
+width: 1600px;
+height: 600px;
+left: 0px;
+top: 80px;
+background: #2F303A;
+}
+.solutions{
+font-size: 44px;
+line-height: 1.36;
+color: #FFFFFF;
+}
+.button{
+color: #FFFFFF;
+font-size: 16px;
+line-height: 1.88;
+display: flex;
+align-items: center;
+text-align: center;
+width: 200px;
+height: 50px;
+background: #2196F3;
+}
+
+/* peculiarities */ 
+
+/* services */
+
+/* team */ 
+
+/* footer */
+
